@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+
+    
+    <ul>
+        <li>
+            <p>내용</p>
+        </li>
+        <li>
+            <p>내용</p>
+        </li>
+        <li>
+            <p>내용</p>
+        </li>
+        <li>
+            <p>내용</p>
+        </li>
+        <li>
+            <p>내용</p>
+        </li>
+    </ul>
+
+    <button class="btn" type="button" data-abcde="1234" data-rel="1">전체 동의</button>
+
+    <select name="" id="select">
+        <option value="1">1번</option>
+        <option value="2">2번</option>
+        <option value="3">3번</option>
+    </select>
+
+    <input type="checkbox" class="chk"/>
+    <input type="checkbox" class="chk"/>
+    <input type="checkbox" class="chk"/>
+
+    <!-- <input type="text" id="input" value="abc"/> -->
+
+    <script>
+        //$(선택자).동작();
+        //id를 선택할때는 #, class를 선택할때는 .
+        //$(function({})==$(document).ready(function(){}))
+        // $(function(){
+        //     $('.divClass').click(function(){
+        //     console.log('클릭');
+        //     });
+        // });
+
+        // $('.divClass').html('<p>HTML태그로 넣어봅니다.</p>')
+
+        // $('#input').val('1234');
+        // console.log($('#input').val())
+        // $('#cls1').css('color','red');
+        // $('#cls1').css('background','gray');
+        // $('#cls1').css('font-size','20px');
+        
+        // $('#cls2').css({
+        //     'color' : 'blue',
+        //     'background' : 'yellow',
+        //     'font-size' : '10px'
+
+        // });
+
+
+        // $('#cls3').append('<p id="pTag">p태그 추가</p>')
+        // $('#pTag').hover(function(){
+        //      console.log('클릭');
+        //      });
+
+        //여러 이벤트 명시
+        // $('.divClass').on({
+
+        //     click: function(){
+        //         console.log('click');
+        //     },
+        //     mouseenter: function(){
+        //         console.log('mouseenter');
+        //     },
+        //     mouseleave: function(){
+        //         console.log('mouseleave');
+        //     }
+
+        // });
+
+        // $('.btn').click(function(){
+        //     // $(this).parent().find('p').css('color','blue')
+        //     $('ul li').eq(2).css('color','red')
+        // });
+
+        // $('#select').change(function(){
+        //     console.log($('#select option:selected').val())
+        // });
+
+        // var id = $('.btn').data('rel');
+        // console.log(
+        //     $('.btn').data('abcde')
+        // )
+
+        
+        // $('.btn').click(function(){
+        //     $('.chk').prop('checked',true)
+        // });
+
+        // var varName = "1";
+
+        // varName = 2;
+
+        // let varNm = "1";
+        // varNm = 2;
+
+        // const constNm = "1";
+
+
+        // console.log(varName);
+        // console.log(varNm);
+        // console.log(constNm);
+
+    </script>
+    
+</body>
+</html>
